@@ -1,0 +1,37 @@
+/* Formatação para o elemento <body> */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Formatação para todos os elementos <h1> */
+h1 {
+    color: blue;
+}
+
+/* Formatação para a classe .botao */
+.botao {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Página</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!-- Conteúdo da sua página -->
+    <h1>Minha Página</h1>
+    <p>Este é um parágrafo.</p>
+    <button class="botao">Clique Aqui</button>
+</body>
+</html>
